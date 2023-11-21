@@ -36,9 +36,10 @@ body {
 }
 
 /* Estilo del menú desplegable */
+
 .menu {
     display: none;
-    background-color: black;
+    background-color: #fc8f01;
     position: absolute;
     top: 3.2rem;
     width: 100%;
@@ -46,9 +47,13 @@ body {
 
 .menu ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right; /* Alinea todo el contenido del menú a la derecha */
 }
 
 .menu li {
+    display: block;
     padding: 1rem;
     border-bottom: 1px solid white;
 }
@@ -56,4 +61,11 @@ body {
 .menu a {
     color: white;
     text-decoration: none;
+}
+
+
+/* Mostrar el menú al estar en modo activo */
+.menu.active {
+    display: block;
+    color: #fc8f01; /* Puedes cambiar al color deseado */
 }
