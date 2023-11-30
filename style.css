@@ -134,3 +134,7 @@ body {
 /*Fin de la sección del navegador*/
 
 /*Inicio sección de logotipo*/
+.logotipo{
+    width: 100%;
+    height: 5rem;
+}
