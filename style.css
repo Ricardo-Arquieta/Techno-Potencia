@@ -137,4 +137,84 @@ body {
 .logotipo{
     width: 100%;
     height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+/* Estilo para la imagen del logotipo */
+.logotipo img {
+    width: 8rem;
+    height: 8rem;
+    /* Añade cualquier estilo adicional que desees */
+}
+
+
+/*Estilos para banner principal*/
+.main-content {
+    background-image: url('./Imagenes/banner-principal.svg'); /* Reemplaza con la ruta correcta a tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Alinea horizontalmente */
+}
+
+.main-content__container {
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.main-content__title {
+    font-size: 1.6rem; /* Ajusta según sea necesario */
+    font-weight: 300;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+    color: #fc8f01;
+}
+
+.main-content__subtitle {
+    font-size: 1.6rem; /* Ajusta según sea necesario */
+    font-weight: 900;
+    color: #ffffff; /* Puedes cambiar el color según tus preferencias */
+    white-space: pre-line; /* Esto permite que los saltos de línea en el código fuente generen saltos de línea en la pantalla */
+}
+
+.main-content__button {
+    background: transparent;
+    border: 2px solid #ff9900;
+    color: #fff;
+    padding: 5px 10px; /* Ajusta el padding según sea necesario */
+    font-size: 1rem; /* Ajusta según sea necesario */
+    border-radius: 25px;
+    cursor: pointer;
+    /* Ajustes para centrar el botón */
+    margin-top: 3rem; /* Ajusta el margen superior según sea necesario */
+}
+
+/* Final de banner principal */
+
+/* Estilos para la sección de bullet points */
+.bullet-section {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly; /* Distribuye los elementos equitativamente en el eje principal */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.bullet-box {
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.bullet {
+    width: 64px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: 64px;
+    margin-bottom: 10px; /* Ajusta el margen inferior según sea necesario */
+}
+
+.bullet-text {
+    font-size: 1.4rem; /* Ajusta según sea necesario */
+    color: #333; /* Cambia el color del texto según tus preferencias */
+}
+
