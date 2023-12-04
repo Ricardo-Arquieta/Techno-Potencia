@@ -166,7 +166,7 @@ body {
 }
 
 .main-content__title {
-    font-size: 1.6rem; /* Ajusta según sea necesario */
+    font-size: 1.8rem; /* Ajusta según sea necesario */
     font-weight: 300;
     margin-top: 1rem;
     margin-bottom: 10px;
@@ -174,7 +174,7 @@ body {
 }
 
 .main-content__subtitle {
-    font-size: 1.6rem; /* Ajusta según sea necesario */
+    font-size: 1.8rem; /* Ajusta según sea necesario */
     font-weight: 900;
     color: #ffffff; /* Puedes cambiar el color según tus preferencias */
     white-space: pre-line; /* Esto permite que los saltos de línea en el código fuente generen saltos de línea en la pantalla */
@@ -229,6 +229,83 @@ body {
     background-color: #F38634;
 }
 
-.titular-conozcanos__h2{
+.titular-conozcanos__h2--delgado{
+    font-size: 1.8rem;
+    font-weight: 300;
     color: #ffffff;
+    padding-left: 1rem;
+    padding-top: 1rem;
 }
+
+.titular-conozcanos__h2--bold{
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #ffffff;
+    padding-left: 1rem;
+
+}
+
+.titular-conozcanos__p{
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: justify;
+    
+}
+
+.titular-conozcanos__ul-proveedor{
+    padding-bottom: 1.5rem;
+}
+.ul-proveedor__li{
+    color: #ffffff;
+    padding-left: 1rem; 
+}
+
+/*Fin de Sección cónozcanos Techno Potencia*/
+.distribuidores-autorizados__titulares{
+    height: 1.8rem;
+}
+
+.titulares__da{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.distribuidores{
+    font-weight: 300;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #f3b962;
+}
+
+.autorizados{
+    font-weight: 900;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.distribuidores-autorizados__figure{
+    height: 11.8rem;
+}
+
+.soluciones__p{
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.industriales__p{
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-align: center;
+    color: #F38634;
+    background-color: #212121;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+
+
+
+

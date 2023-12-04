@@ -84,24 +84,24 @@
                 <h2 class="titular-conozcanos__h2--delgado">Conózcanos</h2>
                 <h2 class="titular-conozcanos__h2--bold"><strong>TECHNO POTENCIA</strong></h2>
                 <br>
-                <p>Somos una empresa  orgullosamente mexicana 
+                <p class="titular-conozcanos__p">Somos una empresa  orgullosamente mexicana 
                     con más de 30 años de experiencia en la 
                     comercialización de todo tipo de maquinaria industrial
                     ,principalmente artículos de importación. <br>
                 </p>
                 <br>
-                <p>Ubicados en Boca del Río Veracruz, contamos con
+                <p class="titular-conozcanos__p">Ubicados en Boca del Río Veracruz, contamos con
                 equipo especializado para la instalación y mantenimiento
                 del equipo específico que su negocio necesita.
                 </p>
                 <br>
-                <p>Atendemos a nuestros clientes en todo México.</p>
+                <p class="titular-conozcanos__p">Atendemos a nuestros clientes en todo México.</p>
                 <br>
-                <p>Somos proveedore de confianza de:</p>
+                <p class="titular-conozcanos__p">Somos proveedore de confianza de:</p>
                 <br>
 
 
-                <ul class="titular-conozcanos__ul-proveedor">
+                <ul class="titular-conozcanos__ul-proveedor"><!--Recordar poner los emojis de esta sección-->
                     <li class="ul-proveedor__li"><strong>Motores y Variadores</strong> de baja tensión</li>
                     <li class="ul-proveedor__li"><strong>Reductores</strong></li>
                     <li class="ul-proveedor__li"><strong>Válvulas</strong></li>
@@ -110,15 +110,89 @@
                 </ul>
 
             </div>
-                <figure class="conozcanos__figure-conozcanos">
-                    <img src="./Imagenes/engranajes.svg" alt="Banner Aleatorio">
-                </figure>
+            
             <div>
-
+                <figure class="conozcanos__figure-conozcanos">
+                    <img src="./Imagenes/engranajes.svg" alt="Banner Aleatorio" class="figure-conozcanos__img">
+                </figure>
             </div>
+                
+        </section>
+        <!--Fin de Sección cónozcanos Techno Potencia-->
+
+        <!--Inicio de Sección distribuidores autorizados-->
+        <section class="distribuidores-autorizados">
+            <div class="distribuidores-autorizados__titulares">
+                <h2 class="titulares__da">
+                    <Span class="distribuidores">Distribuidores</Span> <br> 
+                    <strong class="autorizados">Autorizadios</strong>
+                </h2>
+                
+            </div>
+
+            <figure class="distribuidores-autorizados__figure"> <!--Faltan por agregar los Logotipos-->
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </figure>
+
+            <div class="distribuidores-autorizados__soluciones">
+                <p class="soluciones__p">Soluciones</p>
+            </div>
+            <div class="distribuidores-autorizados__industriales">
+                <p class="industriales__p">Industriales</p>
+            </div>
+
         </section>
 
 
+
+
+
+
+
+
+
+
+
+
+
+        <!--Inicio de sección footer-->
+        <form action="">
+            <label for="nombre">
+                <input type="text" name="nombre" id="nombre" placeholder="Nobre del responsable" autocomplete="name" required>
+            </label>
+            <label for="puesto-responsable">
+                <input type="text" id="puesto-responsable" placeholder="Puesto del responsable" required>
+            </label>
+            <label for="email">
+                <input type="email" name="email" id="email" placeholder="E-Mail del responsable" autocomplete="email" required>
+            </label>
+            <label for="telefono">
+                <input type="tel" name="telefono" id="telefono" placeholder="Teléfono del responsable" required>
+            </label>
+            <label for="empresa">
+                <input type="text" name="empresa" id="empresa" placeholder="Empresa interesada" required>
+            </label>
+        
+            <input list="tipo-producto" placeholder="Seleccione un tipo de producto">
+            <datalist name="tipo-producto" id="tipo-producto" required>
+                <option value="Centro de control de motores"></option>
+                <option value="Bombas industriales"></option>
+                <option value="Motores e inversores"></option>
+                <option value="Valvulas"></option>
+                <option value="Variadores y reductores"></option>
+                <option value="Otros..."></option>
+            </datalist>
+        
+            <label for="comentarios">
+                <input type="text" id="comentarios" placeholder="Comentarios">
+            </label>
+            <input type="submit">
+        </form>
         
         
         
