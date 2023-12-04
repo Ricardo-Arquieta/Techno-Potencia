@@ -224,4 +224,11 @@ body {
 
 /* Fin de la sección de Bullets */
 
+/*Inicio de sección Conózcanos*/
+.conozcanos__titular-conozcanos{
+    background-color: #F38634;
+}
 
+.titular-conozcanos__h2{
+    color: #ffffff;
+}
