@@ -324,6 +324,7 @@ body {
 .distribuidores-autorizados__figure {
     display: flex;
     animation: slide 10s linear infinite; /* Ajusta la duración según sea necesario */
+    overflow: hidden;
 }
 
 .distribuidores-autorizados__figure img {
@@ -357,4 +358,77 @@ body {
 }
 
 
+/* Seccion de Backgroundes dentro de Sección de Motores*/
 
+
+
+div .motores-img__box-one{
+    display: block;
+}
+.motores-img__box-one{
+    width: 16rem;
+    background: url(./Imagenes/bg-Motores\ industriales.png);
+    display: cover;
+    background-repeat: no-repeat;
+}
+
+div .motores-img__box-two{
+    display: block;
+}
+
+.motores-img__box-two{
+    width: 16rem;
+    background: url(./Imagenes/Bg-variadores\ de\ frecuencia.png);
+    display: cover;
+    background-repeat: no-repeat;
+}
+    
+div .motores-img__box-three{
+    display: block;
+}
+.motores-img__box-three{
+    width: 16rem;
+    background: url(./Imagenes/bg-arrancadores.png);
+    display: cover;
+    background-repeat: no-repeat;
+}
+
+div .motores-img__box-four{
+    display: block;
+}
+.motores-img__box-four{
+    width: 16rem;
+    background: url(./Imagenes/bg-inversores.png);
+    display: cover;
+    background-repeat: no-repeat;
+}
+
+/*Secciòn de imágenes dentro de Sección de Motores*/
+
+.box-one__img{
+    margin: 1rem;
+    width: 13.4rem;
+    height: 11.7rem;
+    align: center;
+}
+
+.box-two__img{
+    margin: 1rem;
+    width: 13.4rem;
+    height: 11.7rem;
+    align: center;
+}
+
+.box-three__img{
+    margin: 1rem;
+    width: 13.4rem;
+    height: 11.7rem;
+    align: center;
+}
+
+.box-{
+    margin: 1rem;
+    width: 13.4rem;
+    height: 11.7rem;
+    align: center;
+}
